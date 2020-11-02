@@ -1,0 +1,444 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 4000px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*start commen Things */
+.continer{
+    width: 1200px;
+    margin: auto;
+}
+.text-center{
+    text-align: center  ;
+}
+.commen-color{
+    color: #F7600E;
+}
+.a7la-color{
+    color: #FFFFFF;
+}
+/*end commen Things */
+/* start header */
+.header{
+background-image: url(../image/lay3.jpg);
+background-size: cover;
+height: 670px;
+color: #FFFFFF;
+
+}
+.header .overlay{
+ background-color: rgba(66, 72, 77, .9);
+   height: 100%;
+}
+.header .navbar{
+    padding-top: 20px;
+}
+
+.header .info{
+    margin-top: 180px;
+}
+.header .overlay .info h1{
+    font-size: 55px;
+}
+.header .overlay .info p{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 1.4;
+    margin-bottom: 50px;
+}
+.header .overlay .info button{
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 20px;
+    border: 1px solid #909090;
+    margin: 0 8px;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    color:#FFFFFF ;
+}
+.header .overlay .info button:hover{
+    background-color:#F7600E;
+    cursor: pointer;
+}
+.header .overlay .arrow{
+    padding-top: 60px;
+}
+.header .overlay .arrow i{
+    border: 2px solid #7B7B7B;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    line-height: 32px;
+    cursor: pointer;
+    font-size: 35px;
+    
+
+}
+
+/* end header */
+/* start features */
+.features{
+    padding: 88px 0;
+    overflow: hidden;
+    height: 500px;
+    opacity: 0;
+   
+}
+.features section{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+.features section div{
+    padding-right: 40px;  
+}
+.features section div i{
+    color: #f7600e;
+    border: 1px solid #CCC;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    line-height: 120px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.features section div i:hover{
+    background-color:#f7600e ;
+    color: #FFFFFF;
+}
+.features section div h4{
+    color: #555050;
+    font-size: 20px;
+}
+.features section div{
+    color: #B2A89F;
+}
+/* end features */
+/* start sub */
+.sub{
+    height: 240px;
+    background-image: url(../image/lay.webp);
+    background-size: cover;
+    opacity: 0;
+}
+.sub .over{
+    padding: 88px 0;
+    background-color: rgba(66, 72, 77, .9);
+    height: 100%;
+}
+.sub .over form{
+    margin-left: 300px;
+}
+.sub .over form input{
+    padding: 0 10px;
+    width: 320px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    border: none;
+    height: 37px;
+    line-height: 37px;
+}
+.sub .over form button{
+    padding: 10px;
+    width: 200px;
+    border: 1px ;
+    background-color: black;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sub .over form button:hover{
+    background-color: #f7600e;
+}
+/* end sub */
+/* start work */
+.work{
+    padding: 88px 0;
+    opacity: 0;
+}
+.work .text{
+    color: #555050;
+}
+.work .more2,
+.work .photo{
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.work .more2 div ,
+.work .photo div{
+    width: 30%;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #555050;
+    float: left;
+    position: relative;
+}
+.work .more2 div img ,
+.work .photo div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.work .more button{
+    background: transparent;
+    border: 1px solid #CCC;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-left: 525px;
+}
+.work .more2 .zrar button:hover,
+.work .more button:hover{
+    background-color: #f7600e;
+    color: #FFFFFF;  
+}
+
+.work  .more2 {
+    display:none ;
+}
+.work .more2 .zrar button{
+    background: transparent;
+    border: 1px solid #CCC;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-left: 480px;
+}
+.work  .more2 div .overlay,
+.work .photo div .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(247, 96, 14, .8);
+    transition: all .5s ease-in-out;
+    display: none;
+    margin: 0;
+}
+.work  .more2 div .overlay h2,
+.work .photo div .overlay h2{
+    padding-top: 30px;
+}
+.work .more2 div .overlay button,
+.work .photo div .overlay button{
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+
+    
+}
+.work .more2 div .overlay button:hover,
+.work .photo div .overlay button:hover{
+    background-color: #FFFFFF;
+    color:rgb(247, 96, 14); 
+    cursor: pointer;
+}
+.work .more2 div:hover .overlay,
+.work .photo div:hover .overlay {
+    display: block
+}
+/* end work */
+/* start test */
+.test{
+    background-image: url(../image/wp5475488.jpg);
+    background-size: cover;
+    height: 320px; 
+    opacity: 0;
+     
+}
+.test .overlay{
+    background-color: rgba(66, 72, 77, .9);
+    height: 100%;
+    padding: 50px 0;
+}
+
+.test .abdo img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* margin-left: 550px; */
+    margin: auto;
+}
+.test .abdo{
+    margin-top: 10px;
+    width: 90%;
+}
+.test .arrow-r , .test .arrow-l{
+    margin-top: 13px;
+    width: 5%;
+    display: flex;
+}
+.test .arrow-r .rightt {
+   font-size: 35px;
+   margin: auto;
+   color:#FFFFFF ;
+}
+.test .arrow-l .leftt {
+    font-size: 35px;
+    margin:auto;
+    color:#FFFFFF ;
+    display: none;
+}
+.test .arrow-l i:hover,
+.test .arrow-r i:hover{
+    color: #F7600E;
+}
+/* end test */
+/* start team */
+.team{
+    margin: 30px 0;
+    opacity: 0;
+    
+}
+.team .text{
+    margin-bottom: 0;
+    height: 150px;
+    margin-top: 30px;
+}
+.team .photo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 20px;
+     
+}
+.team .photo div{
+    width: 22%;
+    margin-right: 3%;
+    filter: grayscale(1); 
+}
+.team .photo  img{
+    height: 285px;
+    width:260px ;
+}
+.team .photo section{
+    margin-top: 10px;
+    color: #989898;
+}
+.team .photo section i{
+    font-size: 22px;
+    width: 6%;
+    margin-right:  5px;
+    margin-top: 7px;
+}
+.team .photo div:hover{
+    filter: none;
+}
+/* end team */
+/* start opinion */
+.opinion{
+    background-image: url(../image/end.jpg);
+    background-size: cover;
+    height: 600px;
+    color: #FFFFFF;
+    opacity: 0;
+}
+.opinion .overlay{
+    background-color: rgba(66, 72, 77, .9);
+    height: 100%;
+}
+.opinion .continer {
+    flex-direction: column;
+}
+.opinion .text{
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+.opinion .log {
+    width: 620px;
+    height: 260px;
+    margin: 10px 280px;
+    flex-direction: column;
+}
+#firstInput input{
+    width: 48%;
+    padding: 0 9px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+}
+#secondInput{
+    overflow: hidden;
+}
+#secondInput textarea{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    margin-right: 3px;
+}
+#lastInput button{
+    float: left;
+    padding: 10px;
+    width: 200px;
+    border: 1px ;
+    background-color: #f7600e;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px;
+}
+#lastInput button:hover{
+    cursor: pointer;
+}
+#lastInput {
+   margin-top: 10px;
+}
+#lastInput i{
+    font-size: 41px;
+    border-radius: 50%;
+    line-height: 35px;
+    float: right;
+    margin: 0 2px;
+    background-color: #FFFFFF;
+}
+/* end opinion */
+/* start footer */
+.footer{
+    background-color: #3C3D3E;
+    height: 70px;
+    padding: 20px 0;
+    color: #FFFFFF;
+    font-weight:bolder;
+    font-size: 20px;
+    opacity: 0;
+}
+/* end footer */
